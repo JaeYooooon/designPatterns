@@ -1,4 +1,4 @@
-package com.example.designpatterns.patterns;
+package com.example.designpatterns.creational;
 
 /*
 싱글톤(Singleton) 패턴이란?
