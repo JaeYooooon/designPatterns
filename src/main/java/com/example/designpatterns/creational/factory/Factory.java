@@ -1,4 +1,4 @@
-package com.example.designpatterns.creational;
+package com.example.designpatterns.creational.factory;
 
 /*
 팩토리(Factory) 패턴이란?
@@ -19,39 +19,6 @@ package com.example.designpatterns.creational;
 
 코드 예제:
 */
-
-// Product 인터페이스
-interface Product {
-  void use();
-}
-
-// Car 클래스
-class Car implements Product {
-  @Override
-  public void use() {
-    System.out.println("Driving a car");
-  }
-}
-
-// Bike 클래스
-class Bike implements Product {
-  @Override
-  public void use() {
-    System.out.println("Riding a bike");
-  }
-}
-
-// Factory 클래스
-class ProductFactory {
-  public static Product createProduct(String type) {
-    if (type.equals("Car")) {
-      return new Car();
-    } else if (type.equals("Bike")) {
-      return new Bike();
-    }
-    throw new IllegalArgumentException("Unknown product type: " + type);
-  }
-}
 
 public class Factory {
   public static void main(String[] args) {
