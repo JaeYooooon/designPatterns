@@ -12,4 +12,4 @@
 - 설명 : 객체나 클래스 간의 상호작용과 책임 분배를 다루는 패턴들로, 알고리즘과 흐름 제어를 정의합니다.
 - 예시 패턴 : Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor
 
-![gof_types.png](..%2F..%2FUsers%2Fdhy04%2FAppData%2FLocal%2FTemp%2Fgof_types.png)
+![image](https://github.com/JaeYooooon/designPatterns/assets/99658884/7de70463-3792-417f-8d23-abb11350bedb)
